@@ -1,5 +1,6 @@
 .mono {
     font-family: monospace;
+    display: inline;
 }
 body {
     font-family: 'Arial', 'sans-serif';
@@ -177,6 +178,7 @@ body {
 .row-item-3 {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     min-width: 160px;
     width: 32%;
     margin: 0 0 8px 1%;
